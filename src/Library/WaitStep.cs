@@ -21,10 +21,12 @@ namespace Full_GRASP_And_SOLID
         {
             return this.Time;
         }
+       
 
         public override string GetTextToPrint()
         {
             return $"Esperando '{this.Description}' durante {this.Time}";
         }
+        
     }
 }
